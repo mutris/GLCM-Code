@@ -1,0 +1,9 @@
+asm_overall = horzcat(asm_avg_ss,asm_avg_gb,asm_avg_yh,asm_avg_nv,asm_avg_sfh,asm_avg_mm);
+mean_overall = horzcat(mean_avg_ss,mean_avg_gb,mean_avg_yh,mean_avg_nv,mean_avg_sfh,mean_avg_mm);
+con_overall = horzcat(con_avg_ss,con_avg_gb,con_avg_yh,con_avg_nv,con_avg_sfh,con_avg_mm);
+cor_gb = horzcat(cor_gb_0,cor_gb_45,cor_gb_90,cor_gb_135);
+cor_ss = horzcat(cor_ss_0,cor_ss_45,cor_ss_90,cor_ss_135);
+cor_yh = horzcat(cor_yh_0,cor_yh_45,cor_yh_90,cor_yh_135);
+cor_mm = horzcat(cor_mm_0,cor_mm_45,cor_mm_90,cor_mm_135);
+cor_sfh = horzcat(cor_sfh_0,cor_sfh_45,cor_sfh_90,cor_sfh_135);
+cor_nv = horzcat(cor_nv_0,cor_nv_45,cor_nv_90,cor_nv_135);
